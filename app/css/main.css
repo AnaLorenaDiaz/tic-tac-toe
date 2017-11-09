@@ -1,0 +1,100 @@
+/*UNIVERSALES*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+  font-family: sans-serif;
+}
+
+body{
+  z-index: 1;
+}
+
+header{
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  background-color: rgba(48, 48, 48, 0.91);
+}
+
+h1{
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  color: rgb(181, 181, 181);
+}
+
+p{
+  padding-top: 20px;
+  font-size: 20px;
+  color: rgb(181, 181, 181);
+}
+
+/*CLASES*/
+.fondo{
+  position: absolute;
+  width: 100%;
+
+  z-index: -1;
+}
+.logo{
+  height: 100px;
+}
+
+.box1{
+  padding-top: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.button1{
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 30px;
+  background-color: rgba(82, 93, 154, 0.88);
+  border-style: none;
+  padding: 5px 10px 5px 10px;
+  border:2px solid black;
+  border-radius: 10px;
+}
+/*tabla*/
+
+.board{
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: rgba(104, 58, 120, 0.87);
+}
+
+.board td{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.board td:hover{
+  background-color: #c3c3c3;
+}
+
+td:first-child{
+  border-left: none;
+}
+td:last-child{
+  border-right: none;
+}
+tr:first-child td{
+  border-top: none;
+}
+tr:last-child td{
+  border-bottom: none;
+}
+
+.center{
+  text-align: center;
+}
