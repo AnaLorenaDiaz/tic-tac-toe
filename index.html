@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ...........................CABEZA...............................-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>TIC TAC TOE</title>
+    <!-- fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <!-- conexion css -->
+    <link rel="stylesheet" href="app/css/main.css">
+  </head>
+
+  <!-- .........................CUERPO................................-->
+
+  <body>
+    <!-- imagen de fondo -->
+    <img class="fondo" src="app/images/fondo.jpg" alt="Fondo">
+
+    <header>
+      <img class="logo" src="app/images/LSS.png" alt="Logo">
+    </header>
+
+    <div class="box1">
+      <h1>Tic Tac Toe</h1>
+      <p>
+        Este es un divertido juego entre dos jugadores X y O, quienes marcan los espacios de un tablero 3x3 alternadamente, el ganador es quien primero consigue tener una línea horizontal, vertical o diagonal de 3 espacios consecutivos con su elemento.
+      </p>
+    </div>
+
+    <table class="board board-js">
+      <tbody>
+        <tr>
+          <td id="c1" class="gato"></td>
+          <td id="c2" class="gato"></td>
+          <td id="c3" class="gato"></td>
+        </tr>
+        <tr>
+          <td id="c4" class="gato"></td>
+          <td id="c5" class="gato"></td>
+          <td id="c6" class="gato"></td>
+        </tr>
+        <tr>
+          <td id="c7" class="gato"></td>
+          <td id="c8" class="gato"></td>
+          <td id="c9" class="gato"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- boton -->
+    <div class="center">
+      <button class="button button1" type="button">Reset</button>
+    </div>
+
+
+    <!-- conexion js-->
+    <script src="app/js/app.js" type="text/javascript"></script>
+  </body>
+
+</html>
